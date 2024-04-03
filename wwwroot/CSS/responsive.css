@@ -1,0 +1,33 @@
+﻿/* Media queries para ajustar a resoluciones más bajas */
+@media screen and (max-width: 1440px) {
+    .header-top {
+        padding: 0 0px;
+    }
+
+    /*.header-top-logo {
+        width: 250px;*/ /* Ajusta el tamaño del logo para resoluciones más bajas */
+    /*}
+
+    .header-top-logo2 {
+        width: 300px;*/ /* Ajusta el tamaño del logo overlay para resoluciones más bajas */
+    /*}*/
+    /* Agrega más ajustes de estilos según sea necesario */
+}
+
+@media screen and (max-width: 1439.9px) {
+    .menu-left,
+    .menu-right {
+        display: none; /* Oculta los menús izquierdo y derecho */
+    }
+
+    .burger-menu {
+        display: block; /* Muestra el burger menu */
+        z-index:100;
+
+    }
+    /* Estilos para mostrar el menú desplegable al hacer clic en el icono */
+    #burger-toggle:checked + .burger-icon + .burger-nav {
+        display: block;
+    }
+    
+}

@@ -1,0 +1,163 @@
+﻿@page "/Cyberpunk"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="/CSS/Cyberpunk.css">
+    <link rel="stylesheet" href="/CSS/reloj.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Cyberpunk Page</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="menu-left">
+                <ul class="main-menu">
+                    <li class="has-submenu">
+                        <a href="#">Juegos</a>
+                        <!-- Submenú para "Inicio" -->
+                        <ul class="submenu">
+                            <li><a href="#">CyberPunk2077</a></li>
+                            <li><a href="#">Phantom Liberty</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Noticias</a>
+                        <!-- Submenú para "Noticias" -->
+                        <ul class="submenu">
+                            <li><a href="#">Parches</a></li>
+                            <li><a href="#">Proyecto Orion</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Personajes</a>
+                        <!-- Submenú para "Personajes" -->
+                        <ul class="submenu">
+                            <li><a href="#">Night City</a></li>
+                            <li><a href="#">Dog-Town</a></li>
+                        </ul>
+                    </li>
+                    <span class="menu-separator1"></span>
+                </ul>
+            </div>
+            <div class="logo-container">
+                <div class="logo">
+                    <a href="/Cyberpunk">
+                        <img class="header-top-logo" src="/Iconos/logocp (1).png" alt="Logo Cyberpunk">
+                        <img class="header-top-logo2" src="/Iconos/iconcp.png" alt="Logo Cyberpunk amarillo">
+                    </a>
+                </div>
+            </div>
+            <div class="menu-right">
+                <ul class="main-menu">
+                    <li class="has-submenu">
+                        <a href="#">Galería</a>
+                        <!-- Submenú para "Opción 1" -->
+                        <ul class="submenu">
+                            <li><a href="#">Vídeos</a></li>
+                            <li><a href="#">Imagenes</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Curiosidades</a>
+                        <!-- Submenú para "Opción 2" -->
+                        <ul class="submenu">
+                            <li><a href="#">Easter Eggs</a></li>
+                            <li><a href="#">Teorías</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Comunidad</a>
+                        <!-- Submenú para "Opción 3" -->
+                        <ul class="submenu">
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Build Planer</a></li>
+                        </ul>
+                    </li>
+                    <span class="menu-separator2"></span>
+                    <li class="has-submenu no-hover">
+                        <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">Comprar</a>
+                        <!-- Submenú para "Opción 3" -->                        
+                    </li>
+                </ul>
+            </div>
+            <a class="switcher" href="#"></a>
+            <div class="screen glitch">
+                <div class="clock is-off"><span class="time" data-time=""></span></div>
+                <div class="figure"></div>
+                <div class="figure-mask"></div>
+            </div>
+            <div class="burger-menu">
+            <input type="checkbox" id="burger-toggle">
+            <label for="burger-toggle" class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="burger-nav">
+                <!-- Aquí coloca tus elementos de menú -->
+                <ul>
+                    <li><a href="#">Juegos</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Personajes</a></li>
+                    <li><a href="#">Galería</a></li>
+                    <li><a href="#">Curiosidades</a></li>
+                    <li><a href="#">Comunidad</a></li>
+                    <li><a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">Comprar</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        
+     </header>
+    
+    <script>
+        $(document).ready(function () {
+          function second_passed() {
+            $(".clock").removeClass("is-off");
+          }
+          setTimeout(second_passed, 2000);
+
+          $(".switcher").on("click", function (e) {
+            e.preventDefault();
+            $(".screen").toggleClass("glitch");
+          });
+
+          var newDate = new Date();
+          newDate.setDate(newDate.getDate());
+
+          setInterval(function () {
+            var hours = new Date().getHours();
+            var seconds = new Date().getSeconds();
+            var minutes = new Date().getMinutes();
+
+            var realTime =
+              (hours < 10 ? "0" : "") +
+              hours +
+              " : " +
+              (minutes < 10 ? "0" : "") +
+              minutes +
+              " : " +
+              (seconds < 10 ? "0" : "") +
+              seconds;
+
+            $(".time").html(realTime);
+            $(".time").attr("data-time", realTime);
+          }, 1000);
+        });
+        $(document).ready(function () {
+            $("#burger-toggle").on("click", function () {
+                $(".burger-menu").toggleClass("active");
+            });
+        });
+    </script>
+
+
+    <!-- Resto del contenido de la página -->
+
+</body>
+</html>

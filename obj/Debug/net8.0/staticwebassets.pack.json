@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cyber·Fantasy·.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Cyber·Fantasy·.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\bgcp.png",
+      "PackagePath": "staticwebassets\\BG\\bgcp.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\bgheadertop.webp",
+      "PackagePath": "staticwebassets\\BG\\bgheadertop.webp"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\bsffbg.png",
+      "PackagePath": "staticwebassets\\BG\\bsffbg.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\wpanff.gif",
+      "PackagePath": "staticwebassets\\BG\\wpanff.gif"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\wpanff.mp4",
+      "PackagePath": "staticwebassets\\BG\\wpanff.mp4"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\BG\\wpdotsyellow.jpg",
+      "PackagePath": "staticwebassets\\BG\\wpdotsyellow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\CyberFantasy.css",
+      "PackagePath": "staticwebassets\\CSS\\CyberFantasy.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\Cyberpunk.css",
+      "PackagePath": "staticwebassets\\CSS\\Cyberpunk.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\CSS\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\CSS\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\reloj.css",
+      "PackagePath": "staticwebassets\\CSS\\reloj.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\CSS\\responsive.css",
+      "PackagePath": "staticwebassets\\CSS\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\Iconos\\iconcp.png",
+      "PackagePath": "staticwebassets\\Iconos\\iconcp.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\Iconos\\logocp (1).png",
+      "PackagePath": "staticwebassets\\Iconos\\logocp (1).png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\Iconos\\logocp.png",
+      "PackagePath": "staticwebassets\\Iconos\\logocp.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\Imagenes\\btncp.png",
+      "PackagePath": "staticwebassets\\Imagenes\\btncp.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\Imagenes\\btnff7.png",
+      "PackagePath": "staticwebassets\\Imagenes\\btnff7.png"
+    },
+    {
+      "Id": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber·Fantasy·\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Cyber·Fantasy·.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Cyber·Fantasy·.props",
+      "PackagePath": "build\\Cyber·Fantasy·.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Cyber·Fantasy·.props",
+      "PackagePath": "buildMultiTargeting\\Cyber·Fantasy·.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Cyber·Fantasy·.props",
+      "PackagePath": "buildTransitive\\Cyber·Fantasy·.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

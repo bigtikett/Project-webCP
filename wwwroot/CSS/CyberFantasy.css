@@ -1,0 +1,219 @@
+﻿.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.row-botones {
+    margin-top: 150px;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#contenedor 
+{
+    height: 100vh;
+    background:url(/BG/bsffbg.png) center / cover no-repeat;
+    overflow:hidden;
+}
+
+.home {
+/*    background-image: url(/BG/bsffbg.png);
+*/    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+
+#icono {
+    width: 100vw;
+    max-width: 100px;
+    height: auto;
+    top: -10px;
+    left: -2%;
+    filter: drop-shadow(0 0 5px #7bf5e7);
+}
+
+@media only screen and (min-width: 2560px) {
+    .custom-col {
+        width: 100%;
+    }
+
+    #icono {
+        width: 100vw;
+        max-width: 10%;
+        height: auto;
+        top: -30px;
+        left: -15px;
+    }
+}
+
+h1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    z-index: 3;
+    width: 100%;
+    font-size: 4vw;
+    letter-spacing: 0.9vw;
+}
+
+.mainTitulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    margin-top: 3%;
+    margin-left: -10%;
+    letter-spacing: 0.9vw;
+    color: #88f4f6;
+    text-shadow: -22px 43px 14px #7bf5e7, 0px 0px 10px #f2ff;
+    filter: drop-shadow(0 0 5px #88f4f6);
+}
+
+
+.btnff7 {
+    align-items: center;
+    z-index: 3;
+    left: -10%;
+    width: 11%;
+}
+
+
+.btncp {
+    align-items: center;
+    z-index: 3;
+    left: 79%;
+    width: 11%;
+}
+@media only screen and (max-width: 842px) and (orientation: landscape) {
+    .row-botones {
+        margin-top: 30px; /* Ajusta según sea necesario */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .btnff7 {
+        top: 35%;
+        width: 30%;
+        left: 15%;
+        font-size: 16px;
+        margin-top:20px;
+    }
+
+    .btncp {
+        top: 25%;
+        width: 30%;
+        left: 15%;
+        margin-top:20px;
+    }
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        margin-top: calc(-1* var(--bs-gutter-y));
+        margin-right: calc(-.5* var(--bs-gutter-x));
+        margin-left: calc(-.5* var(--bs-gutter-x));
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+        .row [class*="col-"]:not(:last-child) {
+            margin-bottom: 35px;
+        }
+}
+
+#boton .btnff7,
+#boton .btncp {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+    #boton .btnff7 img {
+        width: 80%;
+        height: auto;
+        filter: drop-shadow(0 0 5px #7bf5e7);
+    }
+
+    #boton .btncp img {
+        width: 80%;
+        height: auto;
+        filter: drop-shadow(0 0 5px #7bf5e7);
+    }
+
+
+    #boton .btnff7::before {
+        content: attr(data-tooltip);
+        top: calc(100% + 5px);
+        position: absolute;
+        left: 0%;
+        background-color: #3340;
+        color: #88f4f6;
+        border-radius: 5px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none;
+        font-family: 'Orbitron';
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+        filter: drop-shadow(0 0 5px #f2ff);
+        z-index: 5;
+    }
+
+    #boton .btncp::before {
+        content: attr(data-tooltip);
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0%;
+        background-color: #3340;
+        color: #88f4f6;
+        border-radius: 5px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none;
+        font-family: 'Orbitron';
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+        filter: drop-shadow(0 0 5px #f2ff);
+        z-index: 5;
+    }
+
+    #boton .btnff7:hover::before,
+    #boton .btncp:hover::before {
+        opacity: 1;
+    }

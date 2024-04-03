@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\css\\cyberfantasy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:wwwroot\\css\\cyberfantasy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\components\\pages\\cyberpunk.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:components\\pages\\cyberpunk.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|c:\\users\\g4rnett\\source\\repos\\cyber\u00B7fantasy\u00B7\\wwwroot\\css\\cyberpunk.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:wwwroot\\css\\cyberpunk.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\css\\reloj.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D47EA095-6635-4EC5-89F3-626C05AE0A5F}|Cyber\u00B7Fantasy\u00B7.csproj|solutionrelative:wwwroot\\css\\reloj.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "reloj.css",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\reloj.css",
+              "RelativeDocumentMoniker": "wwwroot\\CSS\\reloj.css",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\reloj.css",
+              "RelativeToolTip": "wwwroot\\CSS\\reloj.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-16T08:45:15.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\responsive.css",
+              "RelativeDocumentMoniker": "wwwroot\\CSS\\responsive.css",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\responsive.css",
+              "RelativeToolTip": "wwwroot\\CSS\\responsive.css",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-14T20:01:14.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cyberpunk.css",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\Cyberpunk.css",
+              "RelativeDocumentMoniker": "wwwroot\\CSS\\Cyberpunk.css",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\Cyberpunk.css",
+              "RelativeToolTip": "wwwroot\\CSS\\Cyberpunk.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-11T02:14:35.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cyberpunk.razor",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\Components\\Pages\\Cyberpunk.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Cyberpunk.razor",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\Components\\Pages\\Cyberpunk.razor",
+              "RelativeToolTip": "Components\\Pages\\Cyberpunk.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T10:15:39.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T10:04:27.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CyberFantasy.css",
+              "DocumentMoniker": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\CyberFantasy.css",
+              "RelativeDocumentMoniker": "wwwroot\\CSS\\CyberFantasy.css",
+              "ToolTip": "C:\\Users\\G4rNeTT\\source\\repos\\Cyber\u00B7Fantasy\u00B7\\wwwroot\\CSS\\CyberFantasy.css",
+              "RelativeToolTip": "wwwroot\\CSS\\CyberFantasy.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAHQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-10T10:21:51.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

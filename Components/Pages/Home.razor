@@ -1,0 +1,49 @@
+﻿@page "/"
+<PageTitle>Cyber·Fantasy·</PageTitle>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/CyberFantasy.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>CyberFantasy</title>
+</head>
+
+<body>
+
+    <div class="container-fluid overlay" id="contenedor">
+        <img class="home" src="/BG/bsffbg.png" />
+
+        <div class="row">
+            <div class="col-12 col-xl-12 ">
+                <img id="icono" src="/Iconos/iconcp.png" alt="Icono" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center" style="height: 100px;">
+                <h1 class="mainTitulo">CYBER·FANTASY</h1>
+            </div>
+        </div>
+        <div id="boton" class="row row-botones">
+            <div class="col-6 col-md-12">
+                <NavLink class="btncp" href="/Cyberpunk" data-tooltip="CyberPunk 2077">
+                    <img src="/imagenes/btncp.png"  alt="Botón 2">
+                </NavLink>
+            </div>
+            <div class="col-6 col-md-12">
+                <button class="btnff7" data-tooltip="Final Fantasy VII">
+                    <img src="/imagenes/btnff7.png" alt="Botón 1">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
